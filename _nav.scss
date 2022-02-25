@@ -1,0 +1,184 @@
+.active{
+  color: #ffffff;
+  /* border: 3px solid black; */
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.8rem 0 3.8rem;
+}
+
+.centerNav {
+  /* width: 830px; */
+  width: 645px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  margin: auto;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  padding: 36px 32px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.firstNavA:hover,
+.secondNavA:hover,
+.thirdNavA:hover {
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 34px 25px;
+}
+
+#mainLogo {
+  padding: 0;
+}
+
+.active {
+  height: 85px;
+  margin: .8rem 0 0 1rem;
+}
+
+#firstSocial {
+  margin-left: 5%;
+  padding: 2.1rem 0 0 1.2rem;
+  height: 22.45px;
+}
+
+#firstSocial img {
+  margin: 0;
+  padding: 0;
+  height: 1.33rem;
+}
+
+#social {
+  padding: 2.1rem 0 0 1.2rem;
+}
+
+#social img {
+  height: 1.33rem;
+  margin: 0;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1240px) {
+
+  .navWrapper {
+    padding: 0;
+  }
+
+  .active {
+    height: 85px;
+    margin: 1.1rem 0 0 1.1rem;
+  }
+
+  #firstSocial,
+  #social {
+    display: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav .icon {
+    float: right;
+    display: block;
+    font-size: 50px;
+    padding: 1.8rem 2rem .8rem 0
+  }
+
+  .topnav.responsive {
+    position: relative;
+    margin-bottom: 3000rem;
+    padding-top: 5rem;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 50px;
+    padding: 1.8rem 2rem 1.8rem 1.8rem;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    font-size: 3.4rem;
+    padding: 4rem 4rem 4rem 1.8rem;
+    text-shadow: 2px 2px #24211c;
+  }
+
+  .firstNavA {
+    margin-left: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .topnav a.icon {
+    font-size: 40px;
+  }
+
+  .topnav.responsive {
+    padding-top: 10rem;
+  }
+
+  .topnav.responsive .icon {
+    font-size: 40px;
+  }
+
+  .topnav.responsive a {
+    font-size: 3rem;
+    padding: 0rem 1rem 3rem 1.8rem;
+  }
+}
+ 
+@media screen and (max-width: 680px) {
+
+  .topnav a.icon {
+    font-size: 40px;
+  }
+
+  .topnav.responsive {
+    padding-top: 8rem;
+  }
+
+  .topnav.responsive .icon {
+    font-size: 40px;
+  }
+
+  .topnav.responsive a {
+    font-size: 2rem;
+    padding: 0rem 1rem 2rem 1.8rem;
+  }
+}

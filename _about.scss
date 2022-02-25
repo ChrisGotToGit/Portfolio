@@ -1,0 +1,179 @@
+.computerSkills {
+    color: #e7cfb4;
+    margin: 10rem 2rem 0 0;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySkillsHeader {
+    color: white;
+    margin: 0 0 5rem 0;
+    font-size: 4rem;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill1Text {
+    font-size: 1.5rem;
+    margin: 3rem 0 0 2rem;
+    font-family: 'century Gothic';
+    font-weight: bold;
+}
+
+.firstYardStick {
+    width: 700px;
+    margin: 0 2rem 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.671) 0 3.4px 0;
+}
+
+.htmlSass,
+.photoshop,
+.wordpress,
+.javaScript,
+.php {
+    margin: 0 2rem 5rem 2.2rem;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    display: none;
+}
+
+.lifeStoryHeader {
+    color: white;
+    font-size: 64px;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    text-align: center;
+    margin: 11rem auto 5rem auto;
+    width: 870px;
+}
+
+.lifeStory {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5rem;
+    
+}
+
+.lifeStory:hover {
+    cursor: pointer;
+}
+
+.lifeStoryRubrik {
+    color: white;
+    font-size: 2.5rem;
+    width: 400px;
+    font-family: 'century Gothic';
+    font-weight: bold;
+}
+
+.lifeStoryText {
+    width: 30rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    margin: 1rem 1rem 1rem 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.lifeStoryStamp {
+    text-align: end; 
+    color: white;
+    margin: 5rem 1.5rem 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    max-width: 472px;
+}
+
+.lifeStoryImg {
+    width: 30rem;
+}
+
+.privateSkillsContainer {
+    text-align: center;
+    margin: 15rem 0 0 0;
+}
+
+.privateSkillsHeader {
+    color: white;
+    margin: 4rem 0 4rem 0;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+}
+
+.seoLinksWrapper{
+    /* max-width: 750px; */
+    
+    margin: 8rem auto 12rem auto;
+    border: solid 2px #e7cfb4;
+    max-width: 860px;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.seoLinksH3{
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.seoLinksH4{
+    
+    font-size: 1.7rem;
+    color: #ffffff;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    margin: 1rem 1rem 1rem 0;
+    font-family: 'Inter', sans-serif;
+    /* text-align: justify; */
+    color: #e7cfb4;
+}
+
+.martinStjartin{
+    text-decoration: underline;
+    color: white;
+    /* line-height: 2.2rem; */
+}
+
+@media screen and (max-width: 1100px) {
+    .lifeStoryImg {
+        width: 25rem;
+        margin-left: 1rem;
+    }
+
+    .lifeStoryText {
+        width: 25rem;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .lifeStoryStamp {
+        font-size: .9rem;
+        /* text-align: end; */
+        color: white;
+        margin: 1.7rem 1.3rem 0 0;
+        width: 170px;
+        margin-left: auto;
+    }
+
+    .lifeStoryHeader {
+        font-size: 3.5rem;
+        width: 700px;
+        margin: 10rem auto 5rem auto;
+
+    }
+
+    .privateSkillsHeader {
+
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}

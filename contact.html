@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="chrisportfolio Christopher Olsson är en webbutvecklare och UX designer som bor i Växjö. Här tar man kontakt.">
+  <title>Webbutvecklare i Växjö | chrisportfolio | Christopher Olsson | Contact | Kontakt</title>
+  <meta name="keywords" content="chrisportfolio, webbutvecklare, designer, Växjö, UX, UI, SEO, search engine optimization">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kristi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Denna är för hamburgegrafiken -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="headerContact">
+    <div class="navWrapper">
+      <div class="bild"><a href="https://chrisportfolio.se/" alt="Leads to my landing page" id="mainLogo"><img src="img/CODarkGreen.svg" alt="Leads to landing page" class="active"></a></div>
+      <div class="centerNav">
+        <div class="topnav" id="myTopnav">
+          <a class="firstNavA" href="portfolio.html">portfolio</a>
+          <a class="secondNavA" href="about.html">about</a>
+          <a class="secondNavA" href="blog.html">blog</a>
+          <a class="thirdNavA" href="contact.html">contact</a>
+
+          <a id="firstSocial" href="https://www.linkedin.com/in/christopher-olsson-7a0969162" alt="linkedIn link" target="_blank">
+            <img src="img/linkedIn.png" alt="Goes to my linkedIn profile" class="active">
+          </a>
+          
+          <!-- <a id="social"><img src="img/behanceLogo.png" class="active"></a>
+          <a id="social"><img src="img/instagramLogo.png" class="active"></a>
+          <a id="social"><img src="img/twitterLogo.png" class="active"></a> -->
+          <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+      </div><!-- End of centerNav -->
+    </div> <!-- End of navWrapper -->
+
+    <div class="headerContentContact">
+        <!--<h1 class="portfolioHeaderH1">Contact</h1>
+         <h3 class="portfolioHeaderH3">
+          Questions?<br> Do you want an estimate?<br>Looking to hire?
+        </h3> -->
+      
+
+
+
+
+        <!-- <div class="contactFormHeader">Lets do the do!</div> -->
+
+        <div class="contactWrapper">
+
+          <div class="contactReason">
+            <div class="reasonHeader">Kontakt</div>
+            <h3 class="contactHeaderH3">
+              Har du frågor?
+            </h3>
+            <h4 class="contactheaderH4" >Vill du ha en prisuppskattning? 
+              Letar du efter en ny medarbetare? Eller vill du bara tjöta lite? Hör av dig, så svarar jag inom två timmar!</h4>
+          </div>
+
+
+          <div class="contactInfo">
+            <form action="send.php" method="post">
+                <div class="emailAndName">
+                  <div class="testar">
+
+                    <input  type="text" id="emailInput" name="email" placeholder="Email"><br>
+                  </div>
+                  <div>
+                    <input  type="text" id="nameInput" name="lname" placeholder="Namn"><br>
+                  </div>
+                </div>
+
+                <div class="contactMessage"> <textarea type="text" name="mess" id="messageInput" placeholder="Meddelande..."></textarea> </div>
+                <div class="contactButton">
+                  <input class="contactButtonStyle" type="submit" value="Skicka">
+                </div>
+
+            </form>
+            
+          </div>  <!-- end contactInfo -->
+
+
+
+
+          <!-- 
+          <div class="contactInfo">
+            <div class="emailAndName">
+              <div class="testar" ><input type="text" id="emailInput" placeholder="E-mail"></div>
+              <div><input type="text" id="nameInput" placeholder="Namn"></div>
+          </div>
+          
+          <div class="contactMessage"> <textarea type="text" id="messageInput" placeholder="Meddelande..."></textarea> </div>
+          <div class="contactButton"><button class="contactButtonStyle">Skicka</button></div> 
+          </div> End of contactInfo -->
+           
+          </div><!-- End of contactWrapper -->
+
+
+
+
+
+
+
+        <!-- <h2 class="contactTalk">Lets talk!</h2> -->
+    </div><!-- End of headerContent -->
+
+    <div class="scroll">
+      <img src="img/scroll.png" class="scrollIndicator" alt="scroll indicator">
+    </div>
+
+  </div><!-- End of headerContact -->
+
+  <div class="mainWrapper">
+
+
+<div class="contactWrapper">
+
+</div><!-- End of contactWrapper -->
+
+  </div><!-- End mainWrapper -->
+
+  <div class="footer">
+    <a class="firstFootNav" href="portfolio.html">portfolio</a>
+    <a class="firstFootNav" href="about.html">about</a>
+    <a class="firstFootNav" href="blog.html">blog</a>
+    <a class="firstFootNav" href="contact.html">contact</a>
+  </div> 
+
+  <script src="./script.js"></script>
+</body>
+</html>

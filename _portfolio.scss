@@ -1,0 +1,90 @@
+.portfolioGrid {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 12rem 0 7rem 0;
+    grid-gap: 147px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9 {
+    background: #ffefdc;
+    border-radius: .1rem;
+    overflow: hidden;
+    /* box-shadow: rgba(50, 50, 93, 0.678) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.795) 0px 18px 36px -18px inset; */
+    transition: 0.2s;
+    width: 300px;
+    border-radius: 15px 15px 15px 65px;
+}
+
+.portfolioPromo {
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0 6rem 0;
+    margin-top: 4rem;
+    background-color: #181f1c;
+    box-shadow: #0f1412 0px 30px 60px -12px inset, #0d110f 0px 18px 36px -18px inset, #0d110f 0px -18px 36px -18px inset, #0f1412 0px -30px 60px -12px inset;
+}
+
+.ctaButton {
+    background-color: #da6d42;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1400px) {
+
+    .portfolioGrid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 65px;
+        max-width: 1032px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .portfolioGrid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 100px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:790px) {
+
+    .portfolioGrid {
+        grid-template-columns: repeat(1, 1fr);
+        box-sizing: border-box;
+        grid-row-gap: 6vh;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9 {
+        background: #fff;
+        border-radius: .1rem;
+        overflow: hidden;
+        box-shadow: rgba(2, 2, 2, 0.432) 0px 2px 3px -1px, rgba(0, 0, 0, 0.199) 3px 1px 3px -1px;
+        cursor: pointer;
+        transition: 0.2s;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

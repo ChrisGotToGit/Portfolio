@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0 20px 0;
+    margin: 5.5rem auto 0 auto;
+}
+
+.footer>* {
+    text-decoration: none;
+    font-size: 22.4px;
+    /* font-family: 'century Gothic'; */
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    margin: 0 5% 0 5%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .footer {
+        margin: 2.5rem auto 0 auto;
+    }
+}

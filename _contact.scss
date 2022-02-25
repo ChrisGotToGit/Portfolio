@@ -1,0 +1,134 @@
+.HVSkolUppgift {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.HVSkolUppgiftText {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    transform: rotate(-35deg);
+    margin: 22rem 0 22rem 0;
+}
+
+.contactFormHeader{
+    font-size: 64px;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    width: 460px;
+    margin: 0 auto 90px auto;
+}
+
+.contactWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contactReason{
+    /* margin-top: 100px; */
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  margin-bottom: 48px;
+}
+
+.reasonHeader{
+    font-size: 128px;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    width: 490px;
+    /* line-height: 48px; */
+    margin: 0px 0 32px 0px;
+    text-shadow: 2px 2px #27211a;
+}
+
+.reasonText{
+    width: 550px;
+    font-size: 24px;
+    margin: 16px 0 0 0;
+    line-height: 30px;
+}
+/*
+.contactInfo{
+     background-image: url("img/contactImg.jpg"); */
+    /*  height: auto;
+   width: 200px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: .8rem 0 5rem 8rem; */
+    /* box-shadow: #131313 0px -30px 60px 12px inset, #131313 0px 18px 36px -18px inset; 
+} 
+*/
+
+
+.emailAndName{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.testar{
+    margin-right: 36px;
+}
+
+#emailInput, #nameInput, #messageInput{
+    display: block;
+    width: 179px;
+    padding: .5rem;
+    font-size: 1rem;
+    /* text-align: center; */
+    color: rgb(255, 255, 255);
+    background-color: #8a8a8a;
+    border: 2px solid #333333;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: #0f1412 0px 30px 60px -12px inset, #0d110f 0px 18px 36px -18px inset, #0d110f 0px -18px 36px -18px inset, #0f1412 0px -30px 60px -12px inset;
+    letter-spacing: 0.1rem;
+    /* margin: 0 auto 0rem auto; */
+    font-family: 'century Gothic';
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+.emailInput{
+    margin-right: 16px;
+}
+
+#messageInput{
+    width: 394px;
+    height: 200px;
+    background-color: #1d1d1d;
+    border-radius: 25px;
+}
+
+.contactMessage{
+    margin: 16px 2rem 16px 0;
+    /* width: 358px; */
+}
+
+.contactButton{
+    margin: 16px 3px 16px auto;
+    width: 100px;
+}
+
+.contactButtonStyle{
+    display: block;
+    width: 100px;
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #3c5f51;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, rgba(0, 0, 0, 0.247) -2.4px -2.4px 3.2px inset;
+    letter-spacing: 0.1rem;
+    margin: 2.5rem auto 1.5rem auto;
+    font-family: 'century Gothic';
+    font-weight: bold;
+    border-radius: 35px;
+}
+
